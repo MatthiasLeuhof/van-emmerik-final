@@ -42,6 +42,11 @@ Copyright: ThemeMountain
 [1. Typography]
 */
 
+@font-face {
+	font-family: Sansation;
+	src: url(../fonts/Sansation_Regular.ttf);
+}
+
 body{
 	letter-spacing: 0;
 	font-weight: 400;
@@ -99,8 +104,9 @@ h6 a:hover{
 	color: #7befb2;
 }
 h1,.h1{
-  font-family: "Playfair Display", serif;
+  font-family: "Sansation", "Helvetica Neue", Helvetica, Arial, sans-serif;
 	font-size: 4.5rem;
+  text-transform: uppercase;
 }
 h2,.h2{
 	font-size: 3.3rem;
