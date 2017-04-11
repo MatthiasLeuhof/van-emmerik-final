@@ -4582,3 +4582,28 @@ only screen and (				min-resolution: 2dppx) {
 		background-image: url(../images/generic/signup-1@2x.jpg);
 	}
 }
+
+/*OWN STYLES*/
+
+.scroll-link-arrow {
+	width: 100%;
+	text-align: center;
+	position: absolute;
+	bottom: 2.5rem;
+	line-height: 0;
+	z-index: 10;
+}
+
+.hero-title {
+  border: 3px solid white;
+  padding: 2rem;
+}
+
+.hero-subtitle {
+  text-transform: uppercase;
+  letter-spacing: 20px;
+}
+
+.hero-subtitle span {
+  letter-spacing: normal;
+}
