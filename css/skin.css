@@ -4607,3 +4607,18 @@ only screen and (				min-resolution: 2dppx) {
 .hero-subtitle span {
   letter-spacing: normal;
 }
+
+.hero-slider {
+  height: 100vh;
+}
+
+@media only screen and (max-width: 600px) {
+  .hero-title {
+    font-size: 3rem;
+  }
+
+  .hero-subtitle {
+    letter-spacing: 16px;
+    font-size: 1rem;
+  }
+}
