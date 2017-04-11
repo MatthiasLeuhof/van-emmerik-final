@@ -12,7 +12,7 @@
 	<link rel="icon" type="image/png" sizes="32x32" href="images/decoration/ve-logo-neg.png">
 
 	<!-- Font -->
-	<link href='https://fonts.googleapis.com/css?family=Roboto:400,500,700|Playfair+Display:400,700' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Roboto:400,500,700' rel='stylesheet' type='text/css'>
 
 	<!-- Css -->
 	<link rel="stylesheet" href="css/core.min.css" />
@@ -26,7 +26,7 @@
 <body class="shop home-page preload-page" data-loader-type="full-width-bar">
 
 	<!-- Overlay Navigation Menu -->
-	<div class="overlay-navigation-wrapper" data-no-scrollbar data-animation="scale-in">
+	<div class="overlay-navigation-wrapper one-page-nav" data-no-scrollbar data-animation="scale-in">
 		<div class="overlay-navigation-scroll-pane">
 			<div class="overlay-navigation-inner">
 				<div class="v-align-middle">
@@ -44,17 +44,16 @@
 							<nav class="overlay-navigation nav-block center">
 								<ul>
 									<li>
-										<a href="index.html">Home</a>
+										<a href="#" class="scroll-to-top scroll-link">Home</a>
 									</li>
 									<li>
-										<a href="#about">About
-                    </a>
+										<a href="#about" class="scroll-link">About</a>
 									</li>
 									<li>
-										<a href="#work">Work</a>
+										<a href="#work" class="scroll-link">Work</a>
 									</li>
 									<li>
-										<a href="#contact">Contact</a>
+										<a href="#contact" class="scroll-link">Contact</a>
 									</li>
 								</ul>
 							</nav>
@@ -62,7 +61,7 @@
 					</div>
 					<div class="overlay-navigation-footer row full-width center">
 						<div class="column width-12 no-padding">
-							<p class="copyright">&copy; 2014 THEMEMOUNTAIN. All Rights Reserved.</p>
+							<p class="copyright text-uppercase">&copy; 2017 VanEmmerik</p>
 						</div>
 					</div>
 				</div>
@@ -71,29 +70,27 @@
 	</div>
 	<!-- Overlay Navigation Menu End -->
 
-
 	<div class="wrapper">
 		<div class="wrapper-inner">
 
 			<!-- Header -->
-			<header class="header width-auto header-fixed header-fixed-on-mobile" data-bkg-threshold="480">
+			<header class="header width-auto header-fixed header-fixed-on-mobile header-transparent" data-bkg-threshold="window-height">
 				<div class="header-inner">
 					<div class="row nav-bar">
 						<div class="column width-12 nav-bar-inner">
 							<div class="logo">
 								<div class="logo-inner" data-animate-in="preset:slideInUpShort;duration:1000ms;delay:3000ms;">
 									<a href="index.html"><img src="images/decoration/ve-logo-neg.png" alt="VanEmmerik Logo" /></a>
-									<a href="index.html"><img src="images/decoration/ve-logo.png" alt="VanEmmerik Logo" /></a>
+									<a href="index.html"><img src="images/decoration/ve-logo-white.png" alt="VanEmmerik Logo" /></a>
 								</div>
 							</div>
-              <nav class="navigation nav-block primary-navigation">
+              <!-- <nav class="navigation nav-block primary-navigation">
                 <ul>
                   <li>
                     <a href="#home" class="scroll-link" data-offset="-50">Home</a>
                   </li>
                   <li>
-                    <a href="#about" class="scroll-link">About
-                    </a>
+                    <a href="#about" class="scroll-link">About</a>
                   </li>
                   <li>
                     <a href="#work" class="scroll-link">Work</a>
@@ -102,7 +99,7 @@
                     <a href="#contact" class="scroll-link">Contact</a>
                   </li>
                 </ul>
-              </nav>
+              </nav> -->
 							<nav class="navigation nav-block secondary-navigation nav-right">
 								<ul>
 									<li class="aux-navigation">
@@ -123,31 +120,28 @@
 			<div class="content clearfix">
 
 				<!-- Full Width Slider Section -->
-				<section id="home" class="section-block featured-media tm-slider-parallax-container">
+				<section id="home" class="section-block featured-media tm-slider-parallax-container window-height">
 					<div class="tm-slider-container full-width-slider" data-featured-slider data-parallax data-nav-show-on-hover="false" data-scale-under="960" data-speed="1100" data-scale-min-height="400">
 						<ul class="tms-slides">
-							<li class="tms-slide" data-image data-force-fit data-animation="slide" data-overlay-bkg-color="#232323" data-overlay-bkg-opacity="0.6">
-								<div class="tms-content">
-									<div class="tms-content-inner center">
-										<div class="row">
-											<div class="column width-12">
-												<h1 class="tms-caption title-large color-white mb-10" data-animate-in="preset:slideInUpShort;duration:1000ms;delay:200ms"
-													data-no-scale
-												>
-													VanEmmerik
-												</h1>
-												<div class="clear"></div>
-												<p class="tms-caption text-small color-white weight-regular" data-animate-in="preset:slideInUpShort;duration:1000ms;delay:400ms;"
-													data-no-scale
-												>
-													For the truly creative agency
-												</p>
-											</div>
-										</div>
-									</div>
-								</div>
-								<img data-src="images/decoration/hero-background-1.jpg" data-retina src="images/blank.png" alt=""/>
-							</li>
+              <li class="tms-slide" data-video data-video-bkg data-mute-video data-animation="slideTopBottom" data-overlay-bkg-color="#000000" data-overlay-bkg-opacity="0.5">
+                <div class="tms-content">
+                  <div class="tms-content-inner center">
+                    <div class="row">
+                      <div class="column width-12">
+                        <h1 class="tms-caption title-large color-white mb-10" data-animate-in="preset:slideInUpShort;duration:1000ms;delay:200ms" data-no-scale>VanEmmerik</h1>
+                        <div class="clear"></div>
+                        <p class="tms-caption text-small color-white weight-regular" data-animate-in="preset:slideInUpShort;duration:1000ms;delay:400ms;" data-no-scale>Filmwerk voor alle gelegenheden</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <video poster="images/blank.png" autoplay loop muted>
+                  <source src="mediaelement/videos/loop.mp4" type="video/mp4">
+                </video>
+                <img data-src="images/slider/slide-1-fs.jpg" data-retina src="images/blank.png" alt=""/>
+                <!-- <iframe width="2500" height="1600" src="https://www.youtube.com/embed/ct9wT9QJ8kQ?enablejsapi=1"></iframe> -->
+              </li>
+
 						</ul>
 					</div>
 				</section>
@@ -160,17 +154,15 @@
               <div>
 
 
-							  <p class="lead mb-40 horizon" data-animate-in="preset:slideInLeftShort;duration:700ms;delay:100ms">Balzac is a template for the creative design or ad agency looking for an eye popping, hip and modern look.</p>
+							  <p class="lead mb-40 horizon" data-animate-in="preset:slideInLeftShort;duration:700ms;delay:100ms">Vanemmerik creëert al jaren indrukwekkende content van ongekend professionele kwaliteit.</p>
               </div>
 						</div>
 						<div class="column width-8 offset-2">
-							<p class="horizon" data-animate-in="preset:slideInLeftShort;duration:700ms;delay:200ms">Balzac comes with a wide variety of carfully crafted pages that are ready-to-use and built to save you time. Balzac includes portfolio layouts, about layouts, blog layouts, utility layouts, e-commerce layouts and a ton of components that can be dropped into any page. If you're looking for a unique creative template, then Balzac is it!</p>
+							<p class="horizon" data-animate-in="preset:slideInLeftShort;duration:700ms;delay:200ms">Welke gelegenheid ook van film moet worden voorzien, VanEmmerik producties zorgt ervoor dat u optijd de content in huis hebt.</p>
 						</div>
 					</div>
 				</div>
 				<!-- Basic Feature Columns End -->
-
-				<!-- Demo Grid -->
 
 				<!-- Lightbox Video -->
 				<section id="work" class="section-block bkg-grey color-white">
@@ -278,29 +270,6 @@
 											<input type="text" name="website" class="form-website form-element large" placeholder="Website" tabindex="4">
 										</div>
 										<div class="column width-6">
-											<div class="form-select form-element large">
-												<select name="options" class="form-aux" data-label="Options" tabindex="5">
-													<option selected="selected" value="">Project Budget</option>
-													<option value="">Minder dan €1000</option>
-													<option value="">€1000 - €2000</option>
-													<option value="">€2000 - €5000</option>
-													<option value="">€5000 - €7000</option>
-													<option value="">€10000 &amp; up</option>
-												</select>
-											</div>
-										</div>
-										<div class="column width-6">
-											<div class="form-select form-element large">
-												<select name="options" class="form-aux" data-label="Options" tabindex="5">
-													<option selected="selected" value="">Hoe heb je mij gevonden?</option>
-													<option value="">Via een vriend</option>
-													<option value="">Online</option>
-													<option value="">Eerdere samenwerking</option>
-													<option value="">Via advertenties</option>
-												</select>
-											</div>
-										</div>
-										<div class="column width-6">
 											<input type="text" name="honeypot" class="form-honeypot form-element large">
 										</div>
 									</div>
@@ -376,7 +345,7 @@
 									&copy; MatthiasLeuhof. All Rights Reserved. <a href="#">Terms &amp; Conditions</a> | <a href="#">Cookie policy</a>
 								</p>
 								<p class="pull-right clear-float-on-mobile">
-									<a href="#" class="scroll-to-top" data-no-hide>Back Top</a>
+									<a href="#" class="scroll-to-top" data-no-hide>Terug naar boven</a>
 								</p>
 							</div>
 						</div>
