@@ -4621,4 +4621,17 @@ only screen and (				min-resolution: 2dppx) {
     letter-spacing: 16px;
     font-size: 1rem;
   }
+
+}
+
+@media only screen and (max-width: 1006px) {
+
+  .contact-buttons a {
+    margin-left: 1rem;
+  }
+
+}
+
+.contact-buttons a {
+	width: 190px;
 }
